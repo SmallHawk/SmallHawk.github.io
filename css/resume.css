@@ -52,7 +52,8 @@ p.lead {
     height: 50%;
 }
 
-#Tipo {
+#Tipo,
+#ImgProc {
     width: 1000px;
     height: 700px;
 }
