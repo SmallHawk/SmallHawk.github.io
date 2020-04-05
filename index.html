@@ -37,20 +37,34 @@
     </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Sem1">Semana 1</a>
+                <li class="nav-item dropright">
+                    <a class="nav-link dropdown-toggle" id="AuditNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Auditoría</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="AuditNav">
+                        <a class="dropdown-item" href="#Auditoria">Generalidades</a>
+                        <a class="dropdown-item" href="#ObjAu">Objetivos</a>
+                        <a class="dropdown-item" href="#TiposAu">Tipos</a>
+                        <a class="dropdown-item" href="#CI">Control Interno</a>
+                        <a class="dropdown-item" href="#ObjCI">Objetivos Control Interno</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Sem2">Semana 2</a>
+                <li class="nav-item dropright">
+                    <a class="nav-link dropdown-toggle" id="InforNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Auditoría Informática</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="InforNav">
+                        <a class="dropdown-item" href="#AudInfo">Generalidades</a>
+                        <a class="dropdown-item" href="#Ciclo">Ciclo</a>
+                        <a class="dropdown-item" href="#Alcance">Alcance</a>
+                        <a class="dropdown-item" href="#Impo">Importancia</a>
+                        <a class="dropdown-item" href="#Auditor">Auditor Informático</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Sem3">Semana 3</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Sem4">Semana 4</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#awards">Sem4</a>
+                <li class="nav-item dropright">
+                    <a class="nav-link dropdown-toggle" id="InforNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Proceso de Auditoría</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="InforNav">
+                        <a class="dropdown-item" href="#Proceso">Generalidades</a>
+                        <a class="dropdown-item" href="#Ciclo">Ciclo</a>
+                        <a class="dropdown-item" href="#Alcance">Alcance</a>
+                        <a class="dropdown-item" href="#Impo">Importancia</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">Acerca</a>
@@ -60,7 +74,7 @@
     </nav>
 
     <div class="container-fluid p-0">
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="Sem1">
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="Auditoria">
             <div class="w-100">
                 <h2 class="mb-5">Auditoría</h2>
 
@@ -78,7 +92,7 @@
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="ObjAu">
                     <div class="resume-content">
                         <h3 class="mb-0">Objetivos</h3>
                         <div class="subheading mb-3">De la auditoría</div>
@@ -101,7 +115,7 @@
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="TiposAu">
                     <div class="resume-content">
                         <h3 class="mb-0">Tipos</h3>
                         <div class="subheading mb-3">De auditoría</div>
@@ -111,7 +125,7 @@
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between" id="CI">
                     <div class="resume-content">
                         <h3 class="mb-0">Control Interno</h3>
                         <div class="subheading mb-3">¿Qué es?</div>
@@ -123,7 +137,7 @@
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between" id="ObjCI">
                     <div class="resume-content">
                         <h3 class="mb-0">Objetivos</h3>
                         <div class="subheading mb-3">Del control interno</div>
@@ -145,30 +159,105 @@
         </section>
         <hr class="m-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Sem2">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="AudInfo">
             <div class="w-100">
                 <h2 class="mb-5">Auditoría Informática</h2>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
                     <div class="resume-content">
-                        <h3 class="mb-0">University of Colorado Boulder</h3>
-                        <div class="subheading mb-3">Bachelor of Science</div>
-                        <div>Computer Science - Web Development Track</div>
-                        <p>GPA: 3.23</p>
+                        <h3 class="mb-0">¿Qué es Auditoría Informática?</h3>
+                        <div class="subheading mb-3">Generalidades</div>
+                        <p>Es el examen completo de la Unidad de Informática de una organización en los distintos aspectos de esta (actividades, operaciones, planes, presupuestos, objetivos, misión, visión, sistemas, tecnologías, adquisiciones, manuales
+                            de funciones, ordenes de trabajo, uso de recursos humanos, financieros, paquetes, aplicaciones, etc.), al igual que las políticas, estándares y procedimientos en vigor en la entidad con el fin de evidenciar si se cumplen al
+                            igual que las normas legales aplicables, identificando así irregularidades para proporcionar las recomendaciones necesarias para mejorar.</p>
                     </div>
                     <div class="resume-date text-md-right">
-                        <span class="text-primary">August 2006 - May 2010</span>
+                        <span class="text-primary">Nota: es un proceso llevado a cabo por profesionales especialmente capacitados para el efecto, y que consiste en recoger, agrupar y evaluar evidencias para determinar si un Sistema de Información salvaguarda el activo empresarial y mantiene la integridad de los datos.</span>
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between" id="Ciclo">
                     <div class="resume-content">
-                        <h3 class="mb-0">James Buchanan High School</h3>
-                        <div class="subheading mb-3">Technology Magnet Program</div>
-                        <p>GPA: 3.56</p>
+                        <h3 class="mb-0">Ciclo</h3>
+                        <div class="subheading mb-3">De la auditoría informática</div>
+                        <ol>
+                            <li>Selección del área a auditar.</li>
+                            <li>Establecimiento de Objetivos.</li>
+                            <li>Elaboración del Programa de Trabajo.</li>
+                            <li>Planeación de actividades.</li>
+                            <li>Asignación de recursos.</li>
+                            <li>Ejecución de la Auditoría.</li>
+                            <li>Elaboración del Informe de Auditoría.</li>
+                            <li>Presentación del Informe de Auditoría.</li>
+                            <li>Seguimiento de la Auditoría.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between" id="Alcance">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Alcance</h3>
+                        <div class="subheading mb-3">De la auditoría informática</div>
+                        <p>Las áreas en donde se puede realizar la auditoría en informática, pueden ser:
+                        </p>
+                        <ul>
+                            <li>A toda la Entidad.</li>
+                            <li>A un departamento.</li>
+                            <li>A un área</li>
+                            <li>A una función</li>
+                            <li>A una subfunción.</li>
+                        </ul>
+                        <p>Se pueden aplicar los siguientes tipos de auditoría:</p>
+                        <ol>
+                            <li>Auditoría al ciclo de vida del desarrollo de un sistema.</li>
+                            <li>Auditoría a un sistema en operación.</li>
+                            <li>Auditoría a controles generales (gestión).</li>
+                            <li>Auditoría a la administración de la función de informática.</li>
+                            <li>Auditoría a microcomputadoras aisladas Auditoría a redes.</li>
+                        </ol>
                     </div>
                     <div class="resume-date text-md-right">
-                        <span class="text-primary">August 2002 - May 2006</span>
+                        <span class="text-primary">Nota: Es por ello la importancia de saber escoger el alcance de esta.</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between" id="Impo">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Importancia</h3>
+                        <div class="subheading mb-3">De la auditoría informática</div>
+                        <p>Dentro de los principales puntos que denotan la importancia de esta auditoria tenemos:</p>
+                        <ol>
+                            <li>La alta sistematización</li>
+                            <li>Las nuevas tecnologías</li>
+                            <li>La automatización de los controles</li>
+                            <li>Integración de información</li>
+                            <li>Importancia de la información</li>
+                            <li>Disminuye los costos de la mala calidad (reprocesos, rechazos, reclamos, entre otros).</li>
+                            <li>Genera un balance de los riesgos en TI.</li>
+                            <li>Realiza un control de la inversión en un entorno de TI, a menudo impredecible.</li>
+                        </ol>
+                        <p>La metodología empleada en la auditoría informática es similar a las fases que componen una auditoría tradicional: primero se planea para obtener y entender los procesos de negocio; en segundo lugar se analiza y evalúa el control
+                            interno establecido para determinar la probable efectividad y eficiencia del mismo; posteriormente, se aplican pruebas de auditorías para verificar la efectividad de los procedimientos de control (pruebas de cumplimiento),
+                            o de los productos de los procesos de trabajo (pruebas sustantivas). </p>
+                        <p>Después se informan los resultados de las auditorías, con el fin de reportar las sugerencias correspondientes a las oportunidades de mejora encontradas y finalmente, se efectúa el seguimiento para evaluar el nivel del cumplimiento
+                            y el impacto de las recomendaciones hechas. </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Nota: Para que las organizaciones puedan asegurar que construyen proyectos de tecnología de información que cubren de manera adecuada las necesidades del cliente, en forma eficiente y oportuna, y dentro del presupuesto contemplado existen stándares y prácticas que deben cumplirse y la auditoría permite saber si se estan cumpliendo.</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="Auditor">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Auditor Informático</h3>
+                        <div class="subheading mb-3">¿Quién es?</div>
+                        <p>La auditoría es un examen crítico y sistemático, es una inspección o verificación para asegurar que los procesos y las actividades se ajusten a las leyes, normas y estándares establecidos, donde dichas normas se convierten en criterios
+                            o referentes para determinar el qué y por qué, al igual que el cómo se deben llevar a cabo las actividades y operaciones en la organización.</p>
+                        <p>Quién realiza la auditoría es el auditor, es el encargado de la revisión y evaluación de los sistemas para identificar que se este llevando acabo todo bajo el margen de las normas y leyes (referentes) obteniendo así operaciones
+                            mas eficaces y mejor uso de los recursos. El auditor debe ser alguien con un amplio dominio en el tema que audita, una persona imparcial y responsable, honesto y apegado al derecho (lo legal).</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary text-justify">Nota: Debemos recordar que lo que puede ser auditado son registros, no podemos hacer auditorías a futuro o de cosas que aún no han pasado.</span>
                     </div>
                 </div>
 
@@ -177,62 +266,22 @@
 
         <hr class="m-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Sem3">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Proceso">
             <div class="w-100">
-                <h2 class="mb-5">Sem3</h2>
+                <h2 class="mb-5">Proceso de Auditoria</h2>
 
-                <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="fab fa-html5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-css3-alt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-js-square"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-angular"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-react"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-node-js"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-sass"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-less"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-wordpress"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-gulp"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-grunt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-npm"></i>
-                    </li>
-                </ul>
-
-                <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-check"></i> Mobile-First, Responsive Design</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i> Cross Browser Testing &amp; Debugging</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i> Cross Functional Teams</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i> Agile Development &amp; Scrum</li>
-                </ul>
-            </div>
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                    <div class="resume-content">
+                        <h3 class="mb-0">¿Qué es Auditoría Informática?</h3>
+                        <div class="subheading mb-3">Generalidades</div>
+                        <p>Es el examen completo de la Unidad de Informática de una organización en los distintos aspectos de esta (actividades, operaciones, planes, presupuestos, objetivos, misión, visión, sistemas, tecnologías, adquisiciones, manuales
+                            de funciones, ordenes de trabajo, uso de recursos humanos, financieros, paquetes, aplicaciones, etc.), al igual que las políticas, estándares y procedimientos en vigor en la entidad con el fin de evidenciar si se cumplen al
+                            igual que las normas legales aplicables, identificando así irregularidades para proporcionar las recomendaciones necesarias para mejorar.</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Nota: es un proceso llevado a cabo por profesionales especialmente capacitados para el efecto, y que consiste en recoger, agrupar y evaluar evidencias para determinar si un Sistema de Información salvaguarda el activo empresarial y mantiene la integridad de los datos.</span>
+                    </div>
+                </div>
         </section>
 
         <hr class="m-0">
@@ -296,17 +345,17 @@
                 </div>
             </div>
         </section>
-    </div>
+        </div>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="js/resume.min.js"></script>
 
 </body>
 
